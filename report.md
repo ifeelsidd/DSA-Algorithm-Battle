@@ -109,6 +109,4 @@ Therefore, AVL Tree is recommended for this student record application when pred
 
 ## Conclusion
 
-This experiment helped compare BST, AVL Tree and Hashing using the same dataset.
-
-The results showed that AVL Tree performed better for the selected insertion order and search keys. The experiment also demonstrated the importance of balancing and collision handling in data structures.
+Based on the experiment, Hashing performed the best for searching in our dataset because it required fewer comparisons. AVL Tree maintained a balanced structure with a height of 6, while BST became skewed with a height of 40. Therefore, Hashing is the winner for search efficiency in this experiment, while AVL is useful when ordered data traversal is required.

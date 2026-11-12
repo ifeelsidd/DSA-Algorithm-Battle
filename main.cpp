@@ -205,7 +205,7 @@ bool occupied[SIZE] = {false};
 int collisions = 0;
 
 int hashFunction(int key) {
-    return key % 17;
+    return key % SIZE;
 }
 
 void hashInsert(int key) {
